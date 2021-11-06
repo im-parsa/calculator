@@ -1,0 +1,12 @@
+{
+  "name": "calculator",
+  "version": "0.0.1",
+  "description": "A simple calculator application built in Electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^15.3.0"
+  }
+}

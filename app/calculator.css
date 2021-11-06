@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	font: bold 14px Arial, sans-serif;
+}
+
+#calculator {
+	width: 325px;
+	height: auto;
+
+	padding: 20px;
+	background: linear-gradient(#dcdcdc, #a9a9a9);
+	box-shadow: 0px 4px #727272;
+}
+
+.top span.clear {
+	float: left;
+}
+
+.top .screen {
+	height: 40px;
+	width: 212px;
+
+	float: right;
+
+	padding: 0 10px;
+
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+
+	font-size: 17px;
+	line-height: 40px;
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+.keys, .top {
+	overflow: hidden;
+}
+
+.keys span, .top span.clear {
+	float: left;
+	position: relative;
+	top: 0;
+
+	cursor: pointer;
+
+	width: 66px;
+	height: 40px;
+
+	background: white;
+	border-radius: 3px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+
+	margin: 0 7px 11px 0;
+
+	color: #888;
+	line-height: 40px;
+	text-align: center;
+
+	-webkit-user-select: none;
+	user-select: none;
+
+	transition: all 0.2s ease;
+}
+
+span.operator {
+	margin-right: 0;
+}
+
+.keys span.operator {
+	background: #3c8aff;
+	box-shadow: 0px 4px #2958b0;
+	color: white;
+	margin-right: 0;
+}
+.keys span.operator:hover {
+	background: #2970d9;
+	box-shadow: 0px 4px #2958b0;
+	color: white;
+	margin-right: 0;
+}
+
+.keys span.eval {
+	background: #f1ff92;
+	box-shadow: 0px 4px #9da853;
+	color: #888e5f;
+}
+
+.top span.clear {
+	background: #ff3c3c;
+	box-shadow: 0px 4px #b91d1d;
+	color: white;
+}
+
+.keys span:hover {
+	background: #f1ff92;
+	box-shadow: 0px 4px #9da853;
+	color: white;
+}
+
+.keys span.eval:hover {
+	background: #d9ec51;
+	box-shadow: 0px 4px #717a3;
+	color: #ffffff;
+}
+
+.top span.clear:hover {
+	background: #ff2d2d;
+	box-shadow: 0px 4px #b91d1d;
+	color: white;
+}
+
+.keys span:active {
+	box-shadow: 0px 0px #8eff4d;
+	top: 4px;
+}
+
+.keys span.eval:active {
+	box-shadow: 0px 0px #717a3;
+	top: 4px;
+}
+
+.top span.clear:active {
+	box-shadow: 0px 0px #d3545d;
+	top: 4px;
+}
