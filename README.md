@@ -1,12 +1,13 @@
 # calculator
 A simple calculator application built in Electron.
 
-<br/>
+<br/><br/>
 
 ## How to run apps
 
 
 1 - Install Electron via `npm install -g electron`
+<br/>
 2 - Run the sample via `electron .`
 
 
