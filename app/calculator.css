@@ -106,7 +106,7 @@ span.operator {
 
 .keys span.eval:hover {
 	background: #d9ec51;
-	box-shadow: 0px 4px #717a3;
+	box-shadow: 0px 4px #9da853;
 	color: #ffffff;
 }
 
@@ -122,7 +122,7 @@ span.operator {
 }
 
 .keys span.eval:active {
-	box-shadow: 0px 0px #717a3;
+	box-shadow: 0px 0px #9da853;
 	top: 4px;
 }
 
